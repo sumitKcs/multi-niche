@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*,
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  justify-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* margin-bottom: 8rem; */
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  height: fit-content;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  justify-items: center;
+  column-gap: 10rem;
+  /* margin-bottom: 5.5rem; */
+}
+
+main > section {
+  gap: 1rem;
+  /* margin-bottom: 2rem; */
+}
+
+@media only screen and (max-width: 767px) {
+  /* body {
+        margin-bottom: 50rem;
+    } */
+
+  main {
+    padding-bottom: 5rem;
+  }
+
+  main > section {
+    width: 90vw;
+    margin-bottom: 0.5rem;
+  }
+}
+
+* button,
+* button:focus {
+  border: transparent;
+  outline: transparent;
+}
