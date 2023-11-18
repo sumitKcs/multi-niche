@@ -3,7 +3,7 @@
   display: flex;
   justify-content: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
   position: sticky;
   top: 0;
   left: 0;
@@ -66,9 +66,17 @@
   padding: 0 0.5rem;
   height: 5rem;
 }
-#megamenu_panel {
+
+.headbar .menu_panel {
   display: none;
 }
+.headbar .megamenu:hover .menu_panel {
+  display: flex;
+}
+
+/* .headbar .megamenu:not(:hover) .menu_panel:hover .menu_panel {
+  display: flex;
+} */
 @media only screen and (max-width: 640px) {
   nav.items_left {
     display: none;

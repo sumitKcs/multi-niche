@@ -2,9 +2,10 @@
 @import url(utility.css);
 @import url(bottom_menu.css);
 @import url(header.css);
-@import url(bmenu.css);
 @import url(load_more_button.css);
 @import url(floating_button_refresh.css);
+@import url(carousel.css);
+@import url(category_carousel.css);
 @import url(footer.css);
 
 :root {

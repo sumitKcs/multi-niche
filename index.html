@@ -1,10 +1,5 @@
+<!DOCTYPE html>
 <html lang="en">
-  <link type="text/css" rel="stylesheet" id="dark-mode-custom-link" />
-  <link type="text/css" rel="stylesheet" id="dark-mode-general-link" />
-  <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
-  <style lang="en" type="text/css" id="dark-mode-native-style"></style>
-  <style lang="en" type="text/css" id="dark-mode-native-sheet"></style>
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -51,14 +46,22 @@
       <div class="mobile_menu icon_xl" id="menu_icon">
         <i class="fa-solid fa-bars"></i>
       </div>
-      <a href="/" class="logo items_left items_between w_full">
+      <a
+        href="/"
+        class="logo items_left items_between w_full"
+        style="padding: 1rem 0"
+      >
         <h2>YTag Pro</h2>
       </a>
       <span
-        href="#"
         role="menu"
-        class="w_full items_left gap_xs megamenu"
-        style="cursor: pointer"
+        class="w_full items_center gap_xs megamenu"
+        style="
+          cursor: pointer;
+          width: fit-content;
+          height: 100%;
+          padding: 1rem 0;
+        "
         id="megamenu"
         style="z-index: 2"
       >
@@ -70,567 +73,4280 @@
           width="18px"
           style="rotate: 90deg"
         />
-      </span>
-
-      <div
-        class="shadow border items_left gap_md"
-        style="
-          width: 80%;
-          position: absolute;
-          top: 58px;
-          background: white;
-          height: 300px;
-        "
-      >
+        <!-- mega menu card -->
         <div
-          class="flex_col_start gap_sm left_menu_wrapper"
-          style="max-width: 120px; padding: 1rem; overflow-y: scroll"
+          class="shadow flex_col_start menu_panel self_center"
+          style="
+            width: 98%;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: white;
+            height: 400px;
+            margin: 0 1rem;
+            padding: 1rem 0;
+            overflow: hidden;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            border-radius: 0.8rem;
+            border: 2px solid grey;
+          "
         >
-          <a href="#" class="left_menu">menu item 1</a>
-          <a href="#" class="left_menu">menu item 2</a>
-          <a href="#" class="left_menu">menu item 3</a>
-          <a href="#" class="left_menu">menu item 4</a>
-          <a href="#" class="left_menu">menu item 5</a>
-          <a href="#" class="left_menu">menu item 6</a>
-          <a href="#" class="left_menu">menu item 6</a>
-          <a href="#" class="left_menu">menu item 7</a>
-          <a href="#" class="left_menu">menu item 8</a>
-          <a href="#" class="left_menu">menu item 9</a>
-          <a href="#" class="left_menu">menu item 10</a>
-          <a href="#" class="left_menu">menu item 11</a>
-        </div>
+          <!-- category carousel -->
+          <div class="categories self_center" style="width: 90%">
+            <div class="carousel_wrapper border" style="border-radius: 0.5rem">
+              <div class="media_scroller snaps_inline" id="category_tab">
+                <!-- carosel element -->
+                <a href="./routes/category-items.html" class="media_element">
+                  <div class="items_even self_center" style="padding: 0 0.2rem">
+                    <span>
+                      <img
+                        src="./assets/img/defence-police.svg"
+                        alt="defence & police"
+                        width="30px"
+                    /></span>
+                    <p class="title">Current Affairs</p>
+                  </div>
+                </a>
+                <!--  -->
+                <a href="./routes/category-items.html" class="media_element">
+                  <div class="items_even self_center" style="padding: 0 0.2rem">
+                    <span>
+                      <img
+                        src="./assets/img/engineering-entrance.svg"
+                        alt="defence & police"
+                        width="30px"
+                    /></span>
+                    <p class="title">Engineering Entrance</p>
+                  </div>
+                </a>
+                <!--  -->
+                <!--  -->
+                <a href="./routes/category-items.html" class="media_element">
+                  <div class="items_even self_center" style="padding: 0 0.2rem">
+                    <span>
+                      <img
+                        src="./assets/img/teaching.svg"
+                        alt="defence & police"
+                        width="30px"
+                    /></span>
+                    <p class="title">Teaching</p>
+                  </div>
+                </a>
+                <!--  -->
+                <a href="./routes/category-items.html" class="media_element">
+                  <div class="items_even self_center" style="padding: 0 0.2rem">
+                    <span>
+                      <img
+                        src="./assets/img/law-arts-commerce.svg"
+                        alt="defence & police"
+                        width="30px"
+                    /></span>
+                    <p class="title">Law, Arts & Commerce</p>
+                  </div>
+                </a>
+                <!--  -->
+                <a href="./routes/category-items.html" class="media_element">
+                  <div class="items_even self_center" style="padding: 0 0.2rem">
+                    <span>
+                      <img
+                        src="./assets/img/defence-police.svg"
+                        alt="defence & police"
+                        width="30px"
+                    /></span>
+                    <p class="title">Current Affairs</p>
+                  </div>
+                </a>
+                <!--  -->
+                <a href="./routes/category-items.html" class="media_element">
+                  <div class="items_even self_center" style="padding: 0 0.2rem">
+                    <span>
+                      <img
+                        src="./assets/img/defence-police.svg"
+                        alt="defence & police"
+                        width="30px"
+                    /></span>
+                    <p class="title">Current Affairs</p>
+                  </div>
+                </a>
+                <!--  -->
+                <a href="./routes/category-items.html" class="media_element">
+                  <div class="items_even self_center" style="padding: 0 0.2rem">
+                    <span>
+                      <img
+                        src="./assets/img/defence-police.svg"
+                        alt="defence & police"
+                        width="30px"
+                    /></span>
+                    <p class="title">Current Affairs</p>
+                  </div>
+                </a>
+                <!--  -->
+                <a href="./routes/category-items.html" class="media_element">
+                  <div class="items_even self_center" style="padding: 0 0.2rem">
+                    <span>
+                      <img
+                        src="./assets/img/defence-police.svg"
+                        alt="defence & police"
+                        width="30px"
+                    /></span>
+                    <p class="title">Current Affairs</p>
+                  </div>
+                </a>
+                <!--  -->
+                <a href="./routes/category-items.html" class="media_element">
+                  <div class="items_even self_center" style="padding: 0 0.2rem">
+                    <span>
+                      <img
+                        src="./assets/img/defence-police.svg"
+                        alt="defence & police"
+                        width="30px"
+                    /></span>
+                    <p class="title">Current Affairs</p>
+                  </div>
+                </a>
+                <!--  -->
+              </div>
+              <!-- nav buttons -->
+              <div class="nav_button">
+                <div class="prev">
+                  <img src="./assets/img/arrow.png" alt="prev" width="40px" />
+                </div>
+                <div class="next">
+                  <img src="./assets/img/arrow.png" alt="next" width="40px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tab items wrapper -->
+          <div class="w_full border tab_items_wrapper">
+            <div
+              class="items_left w_full menu_panel_item"
+              style="border: 3px solid white; height: 100%"
+            >
+              <!-- left menu container -->
+              <div
+                class="flex_col_start gap_sm left_menu_wrapper"
+                style="
+                  max-width: 150px;
+                  padding: 1rem;
+                  overflow-y: scroll;
+                  height: 100%;
+                "
+              >
+                <a href="#" class="left_menu">panel1 item1</a>
+                <a href="#" class="left_menu">panel1 item2</a>
+                <a href="#" class="left_menu">panel1 item3</a>
+                <a href="#" class="left_menu">panel1 item4</a>
+                <a href="#" class="left_menu">panel1 item5</a>
+                <a href="#" class="left_menu">panel1 item6</a>
+                <a href="#" class="left_menu">panel1 item6</a>
+                <a href="#" class="left_menu">panel1 item7</a>
+                <a href="#" class="left_menu">panel1 item8</a>
+                <a href="#" class="left_menu">panel1 item9</a>
+                <a href="#" class="left_menu">panel1 item10</a>
+                <a href="#" class="left_menu">panel1 item11</a>
+              </div>
 
-        <hr />
-        <!-- right side item container -->
-        <div class="items_left w_full" id="right_menu_wrapper">
+              <!-- right side item container -->
+              <div class="items_left w_full" id="right_menu_wrapper">
+                <div
+                  class="items_left gap_xl"
+                  style="
+                    flex-wrap: wrap;
+                    font-family: 'Times New Roman', Times, serif !important;
+                    padding: 1rem;
+                    overflow-y: auto;
+                  "
+                >
+                  <!-- col1 item -->
+                  <div
+                    class="flex_col_start gap_xs"
+                    style="
+                      width: fit-content;
+                      height: fit-content;
+                      white-space: nowrap;
+                    "
+                  >
+                    <h4>Col1 items</h4>
+                    <ul
+                      class="col1 flex_col_start gap_xs"
+                      style="list-style: none"
+                    >
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col1 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col1 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col1 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col1 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col1 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col1 item</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- col2 item -->
+                  <div
+                    class="flex_col_start gap_xs"
+                    style="
+                      width: fit-content;
+                      height: fit-content;
+                      white-space: nowrap;
+                    "
+                  >
+                    <h4>Col2 items</h4>
+                    <ul
+                      class="col2 flex_col_start gap_xs"
+                      style="list-style: none"
+                    >
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col2 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col2 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col2 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col2 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col2 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col2 item</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- col3 item -->
+                  <div
+                    class="flex_col_start gap_xs"
+                    style="
+                      width: fit-content;
+                      height: fit-content;
+                      white-space: nowrap;
+                    "
+                  >
+                    <h4>Col3 items</h4>
+                    <ul
+                      class="col3 flex_col_start gap_xs"
+                      style="list-style: none"
+                    >
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- col3 item -->
+                  <div
+                    class="flex_col_start gap_xs"
+                    style="
+                      width: fit-content;
+                      height: fit-content;
+                      white-space: nowrap;
+                    "
+                  >
+                    <h4>Col3 items</h4>
+                    <ul
+                      class="col3 flex_col_start gap_xs"
+                      style="list-style: none"
+                    >
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- col3 item -->
+                  <div
+                    class="flex_col_start gap_xs"
+                    style="
+                      width: fit-content;
+                      height: fit-content;
+                      white-space: nowrap;
+                    "
+                  >
+                    <h4>Col3 items</h4>
+                    <ul
+                      class="col3 flex_col_start gap_xs"
+                      style="list-style: none"
+                    >
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- col3 item -->
+                  <div
+                    class="flex_col_start gap_xs"
+                    style="
+                      width: fit-content;
+                      height: fit-content;
+                      white-space: nowrap;
+                    "
+                  >
+                    <h4>Col3 items</h4>
+                    <ul
+                      class="col3 flex_col_start gap_xs"
+                      style="list-style: none"
+                    >
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- col3 item -->
+                  <div
+                    class="flex_col_start gap_xs"
+                    style="
+                      width: fit-content;
+                      height: fit-content;
+                      white-space: nowrap;
+                    "
+                  >
+                    <h4>Col3 items</h4>
+                    <ul
+                      class="col3 flex_col_start gap_xs"
+                      style="list-style: none"
+                    >
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#" style="width: fit-content"
+                          >menu item col3 item</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!--  -->
+                </div>
+              </div>
+
+              <!-- right side items -->
+              <!-- item 1 -->
+              <div
+                class="items_left gap_xl hidden right_menu"
+                style="
+                  flex-wrap: wrap;
+                  font-family: 'Times New Roman', Times, serif !important;
+                  padding: 1rem;
+                  overflow-y: auto;
+                "
+              >
+                <!-- col1 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col1 items</h4>
+                  <ul
+                    class="col1 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col2 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col2 items</h4>
+                  <ul
+                    class="col2 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col2 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col2 items</h4>
+                  <ul
+                    class="col2 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--  -->
+              </div>
+              <!-- item 2 -->
+              <div
+                class="items_left gap_xl hidden right_menu"
+                style="
+                  flex-wrap: wrap;
+                  font-family: 'Times New Roman', Times, serif !important;
+                  padding: 1rem;
+                  overflow-y: auto;
+                "
+              >
+                <!-- col1 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col1 items</h4>
+                  <ul
+                    class="col1 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col2 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col2 items</h4>
+                  <ul
+                    class="col2 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!--  -->
+              </div>
+              <!-- item 3 -->
+              <div
+                class="items_left gap_xl hidden right_menu"
+                style="
+                  flex-wrap: wrap;
+                  font-family: 'Times New Roman', Times, serif !important;
+                  padding: 1rem;
+                  overflow-y: auto;
+                "
+              >
+                <!-- col1 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col1 items</h4>
+                  <ul
+                    class="col1 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col2 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col2 items</h4>
+                  <ul
+                    class="col2 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col1 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col1 items</h4>
+                  <ul
+                    class="col1 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col2 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col2 items</h4>
+                  <ul
+                    class="col2 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!--  -->
+              </div>
+              <!--  -->
+            </div>
+          </div>
+          <!-- menu items -->
           <div
-            class="items_left gap_xl"
-            style="
-              flex-wrap: wrap;
-              font-family: 'Times New Roman', Times, serif !important;
-              padding: 1rem;
-              overflow-y: scroll;
-            "
+            class="items_left w_full menu_panel_item hidden"
+            style="border: 3px solid white; height: 100%"
           >
-            <!-- col1 item -->
+            <!-- left menu container -->
             <div
-              class="flex_col_start gap_xs"
+              class="flex_col_start gap_sm left_menu_wrapper"
               style="
-                width: fit-content;
-                height: fit-content;
-                white-space: nowrap;
+                max-width: 150px;
+                padding: 1rem;
+                overflow-y: scroll;
+                height: 100%;
               "
             >
-              <h4>Col1 items</h4>
-              <ul class="col1 flex_col_start gap_xs" style="list-style: none">
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col1 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col1 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col1 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col1 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col1 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col1 item</a>
-                </li>
-              </ul>
+              <a href="#" class="left_menu">panel1 item1</a>
+              <a href="#" class="left_menu">panel1 item2</a>
+              <a href="#" class="left_menu">panel1 item3</a>
+              <a href="#" class="left_menu">panel1 item4</a>
+              <a href="#" class="left_menu">panel1 item5</a>
+              <a href="#" class="left_menu">panel1 item6</a>
+              <a href="#" class="left_menu">panel1 item6</a>
+              <a href="#" class="left_menu">panel1 item7</a>
+              <a href="#" class="left_menu">panel1 item8</a>
+              <a href="#" class="left_menu">panel1 item9</a>
+              <a href="#" class="left_menu">panel1 item10</a>
+              <a href="#" class="left_menu">panel1 item11</a>
             </div>
-            <!-- col2 item -->
-            <div
-              class="flex_col_start gap_xs"
-              style="
-                width: fit-content;
-                height: fit-content;
-                white-space: nowrap;
-              "
-            >
-              <h4>Col2 items</h4>
-              <ul class="col2 flex_col_start gap_xs" style="list-style: none">
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col2 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col2 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col2 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col2 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col2 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col2 item</a>
-                </li>
-              </ul>
+
+            <!-- right side item container -->
+            <div class="items_left w_full" id="right_menu_wrapper">
+              <div
+                class="items_left gap_xl"
+                style="
+                  flex-wrap: wrap;
+                  font-family: 'Times New Roman', Times, serif !important;
+                  padding: 1rem;
+                  overflow-y: auto;
+                "
+              >
+                <!-- col1 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col1 items</h4>
+                  <ul
+                    class="col1 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col2 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col2 items</h4>
+                  <ul
+                    class="col2 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--  -->
+              </div>
             </div>
-            <!-- col3 item -->
+
+            <!-- right side items -->
+            <!-- item 1 -->
             <div
-              class="flex_col_start gap_xs"
+              class="items_left gap_xl hidden right_menu"
               style="
-                width: fit-content;
-                height: fit-content;
-                white-space: nowrap;
+                flex-wrap: wrap;
+                font-family: 'Times New Roman', Times, serif !important;
+                padding: 1rem;
+                overflow-y: auto;
               "
             >
-              <h4>Col3 items</h4>
-              <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-              </ul>
+              <!-- col1 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col1 items</h4>
+                <ul class="col1 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col2 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col2 items</h4>
+                <ul class="col2 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col2 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col2 items</h4>
+                <ul class="col2 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!--  -->
             </div>
-            <!-- col3 item -->
+            <!-- item 2 -->
             <div
-              class="flex_col_start gap_xs"
+              class="items_left gap_xl hidden right_menu"
               style="
-                width: fit-content;
-                height: fit-content;
-                white-space: nowrap;
+                flex-wrap: wrap;
+                font-family: 'Times New Roman', Times, serif !important;
+                padding: 1rem;
+                overflow-y: auto;
               "
             >
-              <h4>Col3 items</h4>
-              <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-              </ul>
+              <!-- col1 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col1 items</h4>
+                <ul class="col1 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col2 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col2 items</h4>
+                <ul class="col2 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
             </div>
-            <!-- col3 item -->
+            <!-- item 3 -->
             <div
-              class="flex_col_start gap_xs"
+              class="items_left gap_xl hidden right_menu"
               style="
-                width: fit-content;
-                height: fit-content;
-                white-space: nowrap;
+                flex-wrap: wrap;
+                font-family: 'Times New Roman', Times, serif !important;
+                padding: 1rem;
+                overflow-y: auto;
               "
             >
-              <h4>Col3 items</h4>
-              <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-              </ul>
-            </div>
-            <!-- col3 item -->
-            <div
-              class="flex_col_start gap_xs"
-              style="
-                width: fit-content;
-                height: fit-content;
-                white-space: nowrap;
-              "
-            >
-              <h4>Col3 items</h4>
-              <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-              </ul>
-            </div>
-            <!-- col3 item -->
-            <div
-              class="flex_col_start gap_xs"
-              style="
-                width: fit-content;
-                height: fit-content;
-                white-space: nowrap;
-              "
-            >
-              <h4>Col3 items</h4>
-              <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-                <li class="">
-                  <a href="#" style="width: fit-content">menu item col3 item</a>
-                </li>
-              </ul>
+              <!-- col1 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col1 items</h4>
+                <ul class="col1 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col2 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col2 items</h4>
+                <ul class="col2 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col1 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col1 items</h4>
+                <ul class="col1 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col2 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col2 items</h4>
+                <ul class="col2 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
             </div>
             <!--  -->
           </div>
-        </div>
+          <!-- menu items -->
+          <div
+            class="items_left w_full menu_panel_item hidden"
+            style="border: 3px solid white; height: 100%"
+          >
+            <!-- left menu container -->
+            <div
+              class="flex_col_start gap_sm left_menu_wrapper"
+              style="
+                max-width: 150px;
+                padding: 1rem;
+                overflow-y: scroll;
+                height: 100%;
+              "
+            >
+              <a href="#" class="left_menu">panel2 item1</a>
+              <a href="#" class="left_menu">panel2 item2</a>
+              <a href="#" class="left_menu">panel2 item3</a>
+              <a href="#" class="left_menu">panel2 item4</a>
+              <a href="#" class="left_menu">panel2 item5</a>
+              <a href="#" class="left_menu">panel2 item6</a>
+              <a href="#" class="left_menu">panel2 item6</a>
+              <a href="#" class="left_menu">panel2 item7</a>
+              <a href="#" class="left_menu">panel2 item8</a>
+              <a href="#" class="left_menu">panel2 item9</a>
+              <a href="#" class="left_menu">panel2 item10</a>
+              <a href="#" class="left_menu">panel2 item11</a>
+            </div>
 
-        <!-- right side items -->
-        <!-- item 1 -->
-        <div
-          class="items_left gap_xl hidden right_menu"
-          style="
-            flex-wrap: wrap;
-            font-family: 'Times New Roman', Times, serif !important;
-            padding: 1rem;
-            overflow-y: scroll;
-          "
-        >
-          <!-- col1 item -->
-          <div
-            class="flex_col_start gap_xs"
-            style="width: fit-content; height: fit-content; white-space: nowrap"
-          >
-            <h4>Col1 items</h4>
-            <ul class="col1 flex_col_start gap_xs" style="list-style: none">
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-            </ul>
-          </div>
-          <!-- col2 item -->
-          <div
-            class="flex_col_start gap_xs"
-            style="width: fit-content; height: fit-content; white-space: nowrap"
-          >
-            <h4>Col2 items</h4>
-            <ul class="col2 flex_col_start gap_xs" style="list-style: none">
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-            </ul>
-          </div>
-          <!-- col3 item -->
-          <div
-            class="flex_col_start gap_xs"
-            style="width: fit-content; height: fit-content; white-space: nowrap"
-          >
-            <h4>Col3 items</h4>
-            <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-            </ul>
-          </div>
-          <!-- col3 item -->
-          <div
-            class="flex_col_start gap_xs"
-            style="width: fit-content; height: fit-content; white-space: nowrap"
-          >
-            <h4>Col3 items</h4>
-            <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-            </ul>
-          </div>
-          <!-- col3 item -->
-          <div
-            class="flex_col_start gap_xs"
-            style="width: fit-content; height: fit-content; white-space: nowrap"
-          >
-            <h4>Col3 items</h4>
-            <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-            </ul>
-          </div>
-          <!-- col3 item -->
-          <div
-            class="flex_col_start gap_xs"
-            style="width: fit-content; height: fit-content; white-space: nowrap"
-          >
-            <h4>Col3 items</h4>
-            <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-            </ul>
-          </div>
-          <!-- col3 item -->
-          <div
-            class="flex_col_start gap_xs"
-            style="width: fit-content; height: fit-content; white-space: nowrap"
-          >
-            <h4>Col3 items</h4>
-            <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-            </ul>
-          </div>
-          <!--  -->
-        </div>
-        <!-- item 2 -->
-        <div
-          class="items_left gap_xl hidden right_menu"
-          style="
-            flex-wrap: wrap;
-            font-family: 'Times New Roman', Times, serif !important;
-            padding: 1rem;
-            overflow-y: scroll;
-          "
-        >
-          <!-- col1 item -->
-          <div
-            class="flex_col_start gap_xs"
-            style="width: fit-content; height: fit-content; white-space: nowrap"
-          >
-            <h4>Col1 items</h4>
-            <ul class="col1 flex_col_start gap_xs" style="list-style: none">
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col1 item</a>
-              </li>
-            </ul>
-          </div>
-          <!-- col2 item -->
-          <div
-            class="flex_col_start gap_xs"
-            style="width: fit-content; height: fit-content; white-space: nowrap"
-          >
-            <h4>Col2 items</h4>
-            <ul class="col2 flex_col_start gap_xs" style="list-style: none">
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col2 item</a>
-              </li>
-            </ul>
-          </div>
-          <!-- col3 item -->
-          <div
-            class="flex_col_start gap_xs"
-            style="width: fit-content; height: fit-content; white-space: nowrap"
-          >
-            <h4>Col3 items</h4>
-            <ul class="col3 flex_col_start gap_xs" style="list-style: none">
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-              <li class="">
-                <a href="#" style="width: fit-content">menu item col3 item</a>
-              </li>
-            </ul>
-          </div>
+            <!-- right side item container -->
+            <div class="items_left w_full" id="right_menu_wrapper">
+              <div
+                class="items_left gap_xl"
+                style="
+                  flex-wrap: wrap;
+                  font-family: 'Times New Roman', Times, serif !important;
+                  padding: 1rem;
+                  overflow-y: auto;
+                "
+              >
+                <!-- col1 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col1 items</h4>
+                  <ul
+                    class="col1 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col1 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col2 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col2 items</h4>
+                  <ul
+                    class="col2 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col2 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- col3 item -->
+                <div
+                  class="flex_col_start gap_xs"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    white-space: nowrap;
+                  "
+                >
+                  <h4>Col3 items</h4>
+                  <ul
+                    class="col3 flex_col_start gap_xs"
+                    style="list-style: none"
+                  >
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" style="width: fit-content"
+                        >menu item col3 item</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--  -->
+              </div>
+            </div>
 
-          <!--  -->
+            <!-- right side items -->
+            <!-- item 1 -->
+            <div
+              class="items_left gap_xl hidden right_menu"
+              style="
+                flex-wrap: wrap;
+                font-family: 'Times New Roman', Times, serif !important;
+                padding: 1rem;
+                overflow-y: auto;
+              "
+            >
+              <!-- col1 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col1 items</h4>
+                <ul class="col1 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col2 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col2 items</h4>
+                <ul class="col2 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col2 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col2 items</h4>
+                <ul class="col2 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!--  -->
+            </div>
+            <!-- item 2 -->
+            <div
+              class="items_left gap_xl hidden right_menu"
+              style="
+                flex-wrap: wrap;
+                font-family: 'Times New Roman', Times, serif !important;
+                padding: 1rem;
+                overflow-y: auto;
+              "
+            >
+              <!-- col1 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col1 items</h4>
+                <ul class="col1 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col2 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col2 items</h4>
+                <ul class="col2 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
+            </div>
+            <!-- item 3 -->
+            <div
+              class="items_left gap_xl hidden right_menu"
+              style="
+                flex-wrap: wrap;
+                font-family: 'Times New Roman', Times, serif !important;
+                padding: 1rem;
+                overflow-y: auto;
+              "
+            >
+              <!-- col1 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col1 items</h4>
+                <ul class="col1 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col2 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col2 items</h4>
+                <ul class="col2 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col1 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col1 items</h4>
+                <ul class="col1 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col1 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col2 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col2 items</h4>
+                <ul class="col2 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col2 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- col3 item -->
+              <div
+                class="flex_col_start gap_xs"
+                style="
+                  width: fit-content;
+                  height: fit-content;
+                  white-space: nowrap;
+                "
+              >
+                <h4>Col3 items</h4>
+                <ul class="col3 flex_col_start gap_xs" style="list-style: none">
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" style="width: fit-content"
+                      >menu item col3 item</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
+            </div>
+            <!--  -->
+          </div>
+          <!-- menu items end -->
         </div>
-        <!--  -->
-      </div>
+      </span>
     </headbar>
 
     <!-- mobile menu -->
@@ -885,7 +4601,7 @@
       </div>
     </bottom_menu>
 
-    <main class="self_center mt_sm">
+    <main class="self_center mt_sm" style="min-height: 50vh">
       <!-- load more button-->
       <!-- <div class="load_more items_center self_center mt_xs">
             <button class="load_more_button self_center">Load More...</button>
@@ -957,10 +4673,20 @@
     </footer>
 
     <script>
-      const left_menu = document.querySelectorAll(".left_menu");
-      const left_menu_wrapper = document.querySelector(".left_menu_wrapper");
-      const right_menu_wrapper = document.querySelector("#right_menu_wrapper");
-      const right_menu = document.querySelectorAll(".right_menu");
+      const tab_items_wrapper = document.querySelector(
+        ".tab_items_wrapper .menu_panel_item"
+      );
+      console.log("tab_items_wrapper", tab_items_wrapper);
+
+      const left_menu = tab_items_wrapper.querySelectorAll(".left_menu");
+      const left_menu_wrapper =
+        tab_items_wrapper.querySelector(".left_menu_wrapper");
+      const right_menu_wrapper = tab_items_wrapper.querySelector(
+        "#right_menu_wrapper"
+      );
+      const right_menu = tab_items_wrapper.querySelectorAll(".right_menu");
+
+      // mega menu actions
       left_menu_array = Array.from(left_menu);
       right_menu_array = Array.from(right_menu);
       left_menu_wrapper.addEventListener("mouseover", (e) => {
@@ -971,7 +4697,7 @@
               const right_menu_item = right_menu_array[index];
               right_menu_array.forEach((element, idx) => {
                 if (index == idx) {
-                  element.style.display = "flex";
+                  return;
                 }
                 element.style.display = "none";
               });
