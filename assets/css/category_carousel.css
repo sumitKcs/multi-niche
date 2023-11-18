@@ -5,7 +5,7 @@
 
 .categories::-webkit-scrollbar,
 .media_scroller::-webkit-scrollbar {
-  display: none;
+  height: 4px;
 }
 
 .categories .media_scroller {
